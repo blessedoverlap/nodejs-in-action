@@ -44,4 +44,8 @@ ee.emit("event");
 ee.removeAllListeners("event");
 ee.emit("event");
 
+function foo() {
+  console.log(bar);
+}
 
+foo();
